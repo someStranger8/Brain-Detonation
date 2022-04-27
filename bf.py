@@ -29,46 +29,6 @@ def interpreter(n):
       cool = input("")
       mem[y] = ord(cool)
 
-    elif i == "[" or "]":
-      while True:
-        lol = n.split("[")
-        
-        for i in lol[loop_pos]:
-          if i == "+":
-            mem[y]+=1
-
-          elif i == "-":
-            mem[y]-=1
-
-          elif i == ">":
-            y+=1
-
-          elif i == "<":
-            y-=1
-
-          elif i == ".":
-            print(chr(mem[y]))
-
-          elif i == ",":
-            cool = input("")
-            mem[y] = ord(cool)
-
-          elif i == "]":
-            if mem[y] == 0:
-              loop_pos+=2
-              break
-
-            else:
-              pass
-
-          else:
-            pass
-
-        break
-
-    else:
-      pass
-
 def main():
   with open(sys.argv[1], "r") as f:
     interpreter(f.read())
