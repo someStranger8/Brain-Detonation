@@ -1,20 +1,4 @@
-# bf-interpreter
+# Brain Detonation
 
-a simple brainf**k interpreter
-
-## usage
-
-app.bf:
-```
-++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
-```
-
-run:
-```
-python3 bf.py app.bf
-```
-
-output:
-```
-Hello World!
-```
+Brain detonation is a programming language based off of the esoteric programming
+language called brainf** k.
