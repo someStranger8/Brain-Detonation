@@ -12,13 +12,13 @@ $ sudo cp bf /bin
 
 ## commands
 
-here is a list of commands:
+there are a list of commands in the ```COMMANDS``` file
 
-> + || add to cell
-> - || subtract from cell
-> . || print str
-> , || get user input
-> ; || add to string
-> = || reset string
-> n || a number such as 5 will multiply the current cell by 5
-> ^ || multiply the current cell by itself
+## usage
+
+here is how to use the interpreter:
+```
+$ bf [argument]
+```
+
+the argument can be something like `-h` or a file like `app.bf`
