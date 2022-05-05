@@ -63,11 +63,11 @@ def main():
       """
 
     else:
-      print("please supply arguments!!!")
+      with open("app.bf", "r") as f:
+        inter(f)
       
   else:
-    with open("app.bf", "r") as f:
-      inter(f)
+    print("please supply arguments!!!")
 
 if __name__ == "__main__":
   main()
