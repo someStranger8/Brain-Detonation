@@ -63,7 +63,7 @@ def main():
       """
 
     else:
-      with open("app.bf", "r") as f:
+      with open(sys.argv[1], "r") as f:
         inter(f)
       
   else:
