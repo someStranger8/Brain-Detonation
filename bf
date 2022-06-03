@@ -3,12 +3,18 @@
 # imports
 import sys
 
+# version
+ver = "1.2.1"
+
+# memory
 i = 1
 mem = []
 while i <= 100:
   mem.append(0)
   i+=1
 
+
+# interpreter
 def inter(n):
   # mem and pointer
   str = ""
@@ -66,9 +72,14 @@ def inter(n):
       pass
 
 
+
+# main function
 def main():
   if len(sys.argv) == 2:
-    if sys.argv[1] == "-h":
+    if sys.argv[1] == "-v":
+      print(ver)
+    
+    elif sys.argv[1] == "-h":
       help = """
         Brain Detonation
        ------------------------------
@@ -90,5 +101,7 @@ def main():
   else:
     print("please supply arguments!!!")
 
+
+# if imported
 if __name__ == "__main__":
   main()
