@@ -93,6 +93,7 @@ def main():
       0-9 || multiply cell by number
         * || print out current cell number
       """
+      print(help)
 
     else:
       with open(sys.argv[1], "r") as f:
