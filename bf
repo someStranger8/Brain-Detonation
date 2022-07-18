@@ -9,7 +9,7 @@ ver = "1.2.1"
 # memory
 i = 1
 mem = []
-while i <= 100:
+while i <= 10000:
   mem.append(0)
   i+=1
 
