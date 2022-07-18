@@ -6,6 +6,23 @@ import sys
 # version
 ver = "1.2.1"
 
+# help
+help = """
+___________________________________________________________________
+|  Brain Detonation Commands                                      |
+|------------------------------------------------------------------
+|   + || add to cell                                              |
+|   - || subtract from cell                                       |
+|   . || print str                                                |
+|   , || get user input                                           |
+|   ; || add to string                                            |
+|   = || reset string                                             |
+| 0-9 || multiply the current value inside the cell by [n]        |
+|   ^ || multiply the current value inside the cell by itself     |
+|   * || print current cell number                                |
+-------------------------------------------------------------------
+"""
+
 # memory
 i = 1
 mem = []
@@ -140,19 +157,6 @@ def main():
       print(ver)
     
     elif sys.argv[1] == "-h":
-      help = """
-        Brain Detonation
-       ------------------------------
-        + || add to cell
-        - || subtract from cell
-        . || print string
-        , || take input from user
-        ; || add to string
-        = || reset string
-        ^ || multiply cell to the power of 2
-      0-9 || multiply cell by number
-        * || print out current cell number
-      """
       print(help)
 
     elif sys.argv[1] == "-c":
