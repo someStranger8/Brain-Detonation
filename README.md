@@ -16,9 +16,18 @@ there are a list of commands in the ```COMMANDS``` file
 
 ## usage
 
-here is how to use the interpreter:
+to interpret a file use the `-i` parameter like so:
+
 ```
-$ bf [argument]
+$ bf -i file.bf
 ```
 
-the argument can be something like `-h` or a file like `app.bf`
+to compile a file to a `.bin` use the `-c` parameter:
+
+```
+$ bf -c file.bf
+$ ls
+file.bf  file.bin
+```
+
+> NOTE: all files have to have the `.bf` file extension
