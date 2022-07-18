@@ -7,6 +7,8 @@ language called brainf**k.
 you can install brain detonation
 by running this command:
 ```
+$ git clone https://github.com/someStranger8/Brain-Detonation
+$ cd Brain-Detonation
 $ sudo cp bf /bin
 ```
 
