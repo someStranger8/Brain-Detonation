@@ -9,5 +9,8 @@ ___________________________________________________________________
 |   = || reset string                                             |
 | 0-9 || multiply the current value inside the cell by [n]        |
 |   ^ || multiply the current value inside the cell by itself     |
-|   * || print current cell number (there are 100 cells or bytes) |
+|   * || print current cell number                                |
 -------------------------------------------------------------------
+
+
+NOTE: the memory limit is 10000 cells (or bytes)
