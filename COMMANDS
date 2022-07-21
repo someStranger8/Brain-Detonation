@@ -14,3 +14,4 @@ ___________________________________________________________________
 
 
 NOTE: the memory limit is 10000 cells (or bytes)
+NOTE: if you use the = with the -c parameter it will clear the .bin file
